@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fitness Dietary</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/signup/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="vendor/signup/nouislider/nouislider.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/signup/style.css">
+</head>
+<body>
+    
+
+    <div class="main">
+
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="images/signup/newimage.png" alt="">
+                    <div class="signup-img-content">
+                        <h2>Register now </h2>
+                        <p>get started with fit meals !</p>
+                    </div>
+                </div>
+                <div class="signup-form">
+                    <form method="POST" class="register-form" id="register-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="form-input">
+                                    <label for="first_name" class="required">First name</label>
+                                    <input type="text" name="first_name" id="first_name" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="last_name" class="required">Last name</label>
+                                    <input type="text" name="last_name" id="last_name" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="company" class="required">Username</label>
+                                    <input type="text" name="username" id="username" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="email" class="required">Email</label>
+                                    <input type="text" name="email" id="email" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="phone_number" class="required">Phone number</label>
+                                    <input type="text" name="phone_number" id="phone_number" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-select">
+                                    <div class="label-flex">
+                                        <label for="meal_preference">meal preference</label>
+                                        <a href="#" class="form-link">Lunch detail</a>
+                                    </div>
+                                    <div class="select-list">
+                                        <select name="meal_preference" id="meal_preference">
+                                            <option value="Vegetarian">Vegetarian</option>
+                                            <option value="Kosher">Non Vegeterian</option>
+                                            <option value="Asian Vegetarian">Eggetarian</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-radio">
+                                    <div class="label-flex">
+                                        <label for="payment">Gender</label>
+                                        <a href="#" class="form-link">Payment Detail</a>
+                                    </div>
+                                    <div class="form-radio-group">            
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="payment" id="cash" checked>
+                                            <label for="cash">Male</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="payment" id="cheque">
+                                            <label for="cheque">Female</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="payment" id="demand">
+                                            <label for="demand">Other</label>
+                                            <span class="check"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-input">
+                                    <label for="chequeno" class="required">Password</label>
+                                    <input type="text" name="chequeno" id="Password" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="blank_name" class="required">Confirm Password</label>
+                                    <input type="text" name="blank_name" id="confirmPassword" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="payable">Payable at</label>
+                                    <input type="text" name="payable" id="payable" />
+                                </div>
+                            </div>
+                        </div>
+						<div class="label-flex">
+                                        <label for="payment">Already have a account</label>
+                                        <a href="login.html" class="form-link">Log In</a>
+                         </div>
+                       
+                        <div class="form-submit">
+                            <input type="submit" value="Sign Up" class="submit" id="submit" name="Submit" />
+                            <input type="submit" value="Reset" class="submit" id="reset" name="reset" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/signup/jquery/jquery.min.js"></script>
+    <script src="vendor/signup/nouislider/nouislider.min.js"></script>
+    <script src="vendor/signup/wnumb/wNumb.js"></script>
+    <script src="vendor/signup/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="vendor/signup/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="js/signup/main.js"></script>
+</body>
+</html>
